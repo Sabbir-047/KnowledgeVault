@@ -6,12 +6,12 @@
 }
 
 /* common styles */
-.container{
+.container {
     max-width: 1360px;
     margin: 0 auto;
 }
 
-.btn{
+.btn {
     background-color: #30B868;
     color: white;
     font-size: 16px;
@@ -22,13 +22,13 @@
     border-radius: 4px;
 }
 
-.section-title{
+.section-title {
     font-size: 48px;
     font-weight: 700;
     color: #001931;
 }
 
-.common-text{
+.common-text {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
@@ -37,25 +37,99 @@
 
 
 /* Navbar styles */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 0px;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
     gap: 32px;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: #000000;
     font-size: 16px;
     font-weight: 500;
+}
+
+
+/* banner section */
+.banner {
+    background-image: url("../assets/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 154px 341px 179px 341px;
+}
+
+.banner-container {
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-access {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #30B868;
+    padding: 8px 12px;
+    max-width: 230px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.banner-access img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.banner-access h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-titles {
+    padding: 16px 0px;
+}
+
+.banner-titles h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+}
+
+.banner-titles h3 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #30B868;
+}
+
+.banner-container p {
+    max-width: 675px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+    padding-bottom: 32px;
+}
+
+.banner-container button{
+    padding: 16px;
+}
+
+.banner-btn{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 16px;
 }
