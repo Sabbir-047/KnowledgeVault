@@ -129,7 +129,7 @@
 }
 
 .banner-container p {
-    max-width: 675px;
+    max-width: 681px;
     margin: 0 auto;
     font-size: 18px;
     font-weight: 400;
@@ -165,22 +165,63 @@
 
 .card {
     flex: 1;
-    box-shadow: 0px 0px 8px 0px #627382;
+    box-shadow: 0px 0px 8px 0px #0000000f;
     border-radius: 8px 8px 0px 0px;
     padding: 24px 24px 0px 24px;
 }
 
-.card img{
+.card img {
     background-color: #f95555;
     padding: 14px;
     margin-top: 45px;
     border-radius: 50px;
 }
 
-.card h3{
+.card h3 {
     padding: 16px 0px;
 }
 
-.card p{
+.card p {
     padding-bottom: 21.5px;
+}
+
+
+
+/* second brain section */
+.second-brain{
+    display: flex;
+    gap: 60px;
+    padding: 120px 0px;
+}
+
+.second-brain img{
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.second-brain-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-brain-info h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+
+.second-brain-info div{
+    padding: 16px 0px;
+}
+
+.second-brain-info p{
+    max-width: 452px;
+    text-align: left;
+}
+
+.tick{
+    display: flex;
+    gap: 6px;
+    align-items: center;
 }
