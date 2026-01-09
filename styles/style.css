@@ -241,4 +241,17 @@
 .early-access {
     text-align: center;
     background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+.early-access-info {
+    padding: 80px 0px;
+}
+
+.early-access-info div {
+    padding: 16px 0px 24px 0px;
+}
+
+.early-access-info button {
+    margin-bottom: 16px;
 }
