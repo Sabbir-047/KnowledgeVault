@@ -242,6 +242,7 @@
     text-align: center;
     background-color: #F7F6F2;
     border-radius: 12px;
+    margin-bottom: 120px;
 }
 
 .early-access-info {
@@ -254,4 +255,48 @@
 
 .early-access-info button {
     margin-bottom: 16px;
+}
+
+
+/* footer Section */
+footer {
+    background-color: #001931;
+    /* padding-top: 120px; */
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px 80px 0px;
+}
+
+.footer-info div {
+    padding-right: 107px;
+}
+
+.footer-info div h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-info a{
+    background-color: white;
+    color: black;
+    padding: 1px;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+footer hr {
+    color: #e5e7eb;
+}
+
+footer p {
+    color: #FAFAFA;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 16px;
+    font-weight: 400;
 }
