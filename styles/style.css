@@ -216,7 +216,6 @@
 }
 
 .second-brain-info p {
-    max-width: 452px;
     text-align: left;
 }
 
@@ -235,4 +234,11 @@
     line-height: 20px;
     color: #001931;
     padding-bottom: 16px;
+}
+
+
+/* Early Access */
+.early-access {
+    text-align: center;
+    background-color: #F7F6F2;
 }
